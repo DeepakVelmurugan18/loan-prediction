@@ -11,7 +11,6 @@ transformer = joblib.load("transformer.pkl")  # Load transformer
 def main():
     st.title("Loan Approval Prediction App")
 
-    # User inputs
     person_age = st.number_input("Person Age", min_value=18, max_value=100, value=30)
     person_income = st.number_input("Person Income", min_value=1000, value=50000)
     person_emp_exp = st.number_input("Employment Experience (Years)", min_value=0, value=5)
