@@ -7,7 +7,6 @@ import joblib
 lr_model = joblib.load("logistic_regression_model.pkl")
 rfc_model = joblib.load("random_forest_model.pkl")
 transformer = joblib.load("transformer.pkl")  # Load transformer
-
 def main():
     st.title("Loan Approval Prediction App")
 
