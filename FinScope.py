@@ -33,7 +33,6 @@ def main():
 
     gender_mapping = {"Female": 0, "Male": 1}
     person_gender = gender_mapping[person_gender]
-
     loan_default_mapping = {"No": 0, "Yes": 1}
     previous_loan_defaults_on_file = loan_default_mapping[previous_loan_defaults_on_file]
 
